@@ -14,7 +14,7 @@ function getCategoryById($conn, $categoryId)
 
 function getAllProducts($conn)
 {
-  $query = "SELECT * FROM `products`";
+  $query = "SELECT * FROM `products` Order by `created_at` DESC";
   return runSelectQuery($conn, $query);
 }
 function getProductById($conn, $productId)

@@ -58,6 +58,11 @@ if (isset($_SESSION)) {
       <span>Settings</span></a>
   </li>
   <li class="nav-item active">
+    <a class="nav-link" href="/manha  ">
+      <i class="fas fa-fw fa-shopping-bag"></i>
+      <span>Main</span></a>
+  </li>
+  <li class="nav-item active">
     <a class="nav-link" href="#" data-toggle="modal" data-target="#logoutModal">
       <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
       Logout
